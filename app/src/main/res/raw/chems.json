@@ -1,0 +1,1958 @@
+[
+  {
+    "Name": "Ash",
+    "Formula": {
+      "Oil": 1
+    },
+    "Description": "Ingredient in Lye, Charcoal and Plastic Sheets.",
+    "Temperature": 480,
+    "IsCompound": true
+  },
+  {
+    "Name": "Oil",
+    "Formula": {
+      "Welding Fuel": 1,
+      "Carbon": 1,
+      "Hydrogen": 1
+    },
+    "Description": "Burns in a small smoky fire. Can be heated into Ash. Also ingredient in Phenol, Acetone, Perfluorodecalin, Ephedrine, Diphenhydramine, Miner's Salve, Haloperidol, Napalm, Plastic Sheets, Spray Tan and Cyanide.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Acetone",
+    "Formula": {
+      "Oil": 1,
+      "Welding Fuel": 1,
+      "Oxygen": 1
+    },
+    "Description": "Ingredient in Cryoxadone, Atropine, Mutadone, Epinephrine, Smart Foaming Agent, Sulfonal and Modafinil.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Diethylamine",
+    "Formula": {
+      "Ammonia": 1,
+      "Ethanol": 1
+    },
+    "Description": "A very potent fertilizer. When used on a growing plant, it adds 2u of nutrient, increases yield more than Ammonia, heals the plant AND kills pests. Also ingredient in Atropine, Ephedrine, Diphenhydramine, Epinephrine, Modafinil, Meth Explosion and Lipolicide.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Phenol",
+    "Formula": {
+      "Oil": 1,
+      "Chlorine": 1,
+      "Water": 1
+    },
+    "Description": "Ingredient in Salicyclic Acid, Oxandrolone, Atropine, Epinephrine, Corazone and Modafinil.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Ammonia",
+    "Formula": {
+      "Hydrogen": 3,
+      "Nitrogen": 1
+    },
+    "Description": "An effective fertilizer. Adds adds 1u of nutrient, heals plants and increases yield, though it isn't as powerful as Diethylamine. Ingredient in Diethylamine, Silver Sulfadiazine, Salbutamol, Pentetic Acid, Crank, Modafinil, Nitrous Oxide, Space Cleaner, Cyanide, Itching Powder and Weed Killer. (Results in 3 units instead of 4)",
+    "IsCompound": true,
+    "Adjusted Product": [4, 3]
+  },
+  {
+    "Name": "Saltpetre",
+    "Formula": {
+      "Oxygen": 3,
+      "Potassium": 1,
+      "Nitrogen": 1
+    },
+    "Description": "Works as a fertilizer. Heals your plant, increases potency and decreases production time. Doesn't add nutrient. Ingredient in Bath Salts and Black Powder. (Results in 3 units instead of 5)",
+    "IsCompound": true,
+    "Adjusted Product": [5, 3]
+  },
+  {
+    "Name": "Lye",
+    "Formula": {
+      "Sodium": 1,
+      "Hydrogen": 1,
+      "Oxygen": 1
+    },
+    "Description": "Ingredient in Soap.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Lye (Alternate Recipe)",
+    "Formula": {
+      "Ash": 1,
+      "Water": 1,
+      "Carbon": 1
+    },
+    "Description": "Ingredient in Soap. (Results in 2 units instead of 3)",
+    "IsCompound": true,
+    "Adjusted Product": [3, 2]
+  },
+  {
+    "Name": "Silver Sulfadiazine",
+    "Treatment for": "Burn",
+    "Description": "On touch, instantly heals burn damage, then heals over time while it stays in the system. Basic anti-burn healing drug.\nOn ingestion also deals minor toxin damage.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Ammonia": 1,
+      "Silver": 1,
+      "Sulfur": 1,
+      "Oxygen": 1,
+      "Chlorine": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Styptic Powder",
+    "Treatment for": "Brute",
+    "Description": "On touch, instantly heals brute damage, then heals over time while it stays in the system. Basic anti-brute healing drug.\nOn ingestion also deals minor toxin damage.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Aluminium": 1,
+      "Hydrogen": 1,
+      "Oxygen": 1,
+      "Sulphuric Acid": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Saline-Glucose Solution",
+    "Treatment for": "Brute, burn",
+    "Description": "Has a 33% chance per metabolism cycle to heal brute and burn damage. Can be used as a temporary substitute for blood if hooked up via IV drip. If overdosed, it will have a 33% chance to deal brute and burn damage and a small chance to become salt or sugar each metabolism cycle.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "60u",
+    "Formula": {
+      "Sodium Chloride": 1,
+      "Water": 1,
+      "Sugar": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Synthflesh",
+    "Treatment for": "Brute, burn",
+    "Description": "Instantly heals 1 brute and burn damage per unit of the chemical applied. Can be used to prepare corpses for defibrillation (under 180 brute and burn). \nTouch and smoke application only. Does nothing while inside a mob's bloodstream.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Styptic Powder": 1,
+      "Blood": 1,
+      "Carbon": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Charcoal",
+    "Treatment for": "Toxin",
+    "Description": "Heals toxin damage at a rate of 2 per tick, will also slowly remove any other chemicals. Ash usually stays hot enough to heat this reaction.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Sodium Chloride": 1,
+      "Ash": 1
+    },
+    "Temperature": 480,
+    "IsCompound": true
+  },
+  {
+    "Name": "Salbutamol",
+    "Treatment for": "Suffocation",
+    "Description": "Quickly heals oxygen damage at a rate of 3 per tick while slowing down suffocation. Great for stabilizing critical patients!",
+    "Metabolism Rate": "0.1 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Salicyclic Acid": 1,
+      "Ammonia": 1,
+      "Aluminium": 1,
+      "Bromine": 1,
+      "Lithium": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Bicaridine",
+    "Treatment for": "Brute",
+    "Description": "Heals brute damage at a rate of 2 units per tick. If overdosed deals 2 brute damage per tick.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "30u",
+    "Formula": {
+      "Carbon": 1,
+      "Oxygen": 1,
+      "Sugar": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Kelotane",
+    "Treatment for": "Burn",
+    "Description": "Heals burn damage at a rate of 2 units per tick. If overdosed deals 2 burn damage per tick.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "30u",
+    "Formula": {
+      "Carbon": 1,
+      "Silicon": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Anti-Toxin",
+    "Treatment for": "Toxin",
+    "Description": "Heals 2 toxin damage and removes 1u of other chemicals per tick. If overdosed deals 2 toxin damage per tick.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "30u",
+    "Formula": {
+      "Nitrogen": 1,
+      "Silicon": 1,
+      "Potassium": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Tricordrazine",
+    "Treatment for": "All types",
+    "Description": "Has 80% chance to heal 1 of each damage type per tick. If overdosed deals an average of 1.2 damage of every type per tick.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "30u",
+    "Formula": {
+      "Kelotane": 1,
+      "Bicaridine": 1,
+      "Anti-Toxin": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Regenerative Jelly",
+    "Treatment for": "All types",
+    "Description": "An improved variation of Tricordrazine that heals 50% faster without the risk of overdose or damaging jellypeople.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Tricordrazine": 1,
+      "Slime Jelly": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Cryoxadone",
+    "Treatment for": "All types",
+    "Description": "Required for the proper function of cryogenics. It heals all types of damage very swiftly (except clone damage, which is healed very slowly), but only when in a very cold environment. Is more effective in colder environments.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Acetone": 1,
+      "Unstable Mutagen": 1,
+      "Stable Plasma": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Pyroxadone",
+    "Treatment for": "All types",
+    "Description": "Inverse Cryoxadone that heals faster the hotter the patient is. Bonus if they're on fire!",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Cryoxadone": 1,
+      "Slime Jelly": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Clonexadone",
+    "Treatment for": "Clone",
+    "Description": "Quickly heals clone damage, but only when in a cold environment.",
+    "Metabolism Rate": "0.6 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Cryoxadone": 1,
+      "Sodium": 1
+    },
+    "Catalyst": {
+      "Name": "Plasma",
+      "Amount": 5,
+      "IsRatio": false
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Mannitol",
+    "Treatment for": "Brain",
+    "Description": "Quickly heals brain damage - best used in cryo alongside Cryoxadone, but will still heal if taken via other means.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Hydrogen": 1,
+      "Water": 1,
+      "Sugar": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Salicyclic Acid",
+    "Treatment for": "Brute",
+    "Description": "If you have more than 50 brute damage, heals 4 units. If you have less than 50 brute damage, heals 0.5 units. Overdosing will deal more brute damage.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "25 Units",
+    "Formula": {
+      "Phenol": 1,
+      "Sodium": 1,
+      "Carbon": 1,
+      "Oxygen": 1,
+      "Sulphuric Acid": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Oxandrolone",
+    "Treatment for": "Burn",
+    "Description": "If you have more than 50 burn damage, heals 4 units. If you have less than 50 burn damage, heals 0.5 units. Overdosing will deal more burn damage.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "25 Units",
+    "Formula": {
+      "Carbon": 3,
+      "Phenol": 1,
+      "Hydrogen": 1,
+      "Oxygen": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Pentetic Acid",
+    "Treatment for": "Radiation, toxin",
+    "Description": "Reduces massive amounts of radiation and toxin damage while purging other chemicals from the body.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Cyanide": 1,
+      "Formaldehyde": 1,
+      "Ammonia": 1,
+      "Welding Fuel": 1,
+      "Sodium": 1,
+      "Chlorine": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Perfluorodecalin",
+    "Treatment for": "Suffocation",
+    "Description": "Heals suffocation damage so quickly that you could have a spacewalk, but it mutes your voice. Has a 33% chance of healing brute and burn damage per cycle as well.",
+    "Metabolism Rate": "0.1 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Oil": 1,
+      "Fluorine": 1,
+      "Hydrogen": 1
+    },
+    "Temperature": 370,
+    "IsCompound": true
+  },
+  {
+    "Name": "Atropine",
+    "Treatment for": "Brute, burn and suffocation",
+    "Description": "If patient's health is critical it will heal brute/burn/toxin (2 / tick) and oxyloss (5 / tick) damage, as well as stop any further oxyloss. It also causes dizziness and jitter, which will shake the screen. Good for quickly getting critical patients back on their feet, but bad for combat because of the screenshake.\nIf overdosed it will deal toxin damage and cause extra jitter and dizziness.",
+    "Metabolism Rate": "0.1 units per tick",
+    "Overdose Threshold": "35 Units",
+    "Formula": {
+      "Acetone": 1,
+      "Diethylamine": 1,
+      "Phenol": 1,
+      "Ethanol": 1,
+      "Sulphuric Acid": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Calomel",
+    "Treatment for": "Purge",
+    "Description": "Quickly purges the body of all chemicals. If your health is above 20, large amounts of toxin damage is dealt.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Mercury": 1,
+      "Chlorine": 1
+    },
+    "Temperature": 374,
+    "IsCompound": true
+  },
+  {
+    "Name": "Mutadone",
+    "Treatment for": "Genetic",
+    "Description": "Heals your genetic mutations. Hulks hate it!",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Acetone": 1,
+      "Unstable Mutagen": 1,
+      "Bromine": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Potassium Iodide",
+    "Treatment for": "Radiation",
+    "Description": "Reduces low radiation damage very effectively.",
+    "Metabolism Rate": "0.8 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Potassium": 1,
+      "Iodine": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Ephedrine",
+    "Treatment for": "Stun",
+    "Description": "Reduces stun times by 2 seconds per tick, increases run speed, and stabilizes crit.\nIf overdosed or addicted it will deal toxin damage and cause breathing problems.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "45 Units",
+    "Addiction Threshold": "30 Units",
+    "Formula": {
+      "Diethylamine": 1,
+      "Oil": 1,
+      "Hydrogen": 1,
+      "Sugar": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Diphenhydramine",
+    "Treatment for": "Histamine Overdose",
+    "Description": "Purges body of lethal Histamine and reduces jitteriness while causing minor drowsiness.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Diethylamine": 1,
+      "Oil": 1,
+      "Bromine": 1,
+      "Carbon": 1,
+      "Ethanol": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Oculine",
+    "Treatment for": "Eye",
+    "Description": "Quickly heals eye damage and reverts blindness.",
+    "Metabolism Rate": "0.1 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Charcoal": 1,
+      "Carbon": 1,
+      "Hydrogen": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Inacusiate",
+    "Treatment for": "Ear",
+    "Description": "Instantly removes all ear damage. (Results in 2 units instead of 3)",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Charcoal": 1,
+      "Carbon": 1,
+      "Water": 1
+    },
+    "IsCompound": true,
+    "Adjusted Product": [3, 2]
+  },
+  {
+    "Name": "Epinephrine",
+    "Treatment for": "Stun + Brute, burn, suffocation and toxin",
+    "Description": "Prevents oxygen damage from going over 35. If the patient is in crit, slowly heals toxins, brute, and burn. 20% chance each tick to reduce stun times by 2 seconds. Gives a minor stamina regeneration buff.\n Worse than Atropine at saving critical patients, but better for mid combat use. If overdosed will deal toxin and stamina damage, and cause suffocation.",
+    "Metabolism Rate": "0.1 units per tick",
+    "Overdose Threshold": "30 Units",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Acetone": 1,
+      "Diethylamine": 1,
+      "Phenol": 1,
+      "Chlorine": 1,
+      "Hydrogen": 1,
+      "Oxygen": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Antihol",
+    "Treatment for": "Alcohol",
+    "Description": "Helps remove Alcohol from someone's body, as well as eliminating its side effects.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Charcoal": 1,
+      "Copper": 1,
+      "Ethanol": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Strange Reagent",
+    "Treatment for": "Death",
+    "Description": "A miracle drug that can bring a dead body back to life! If the corpse has suffered more than 100 brute or burn damage it will fail, however.\nIf used on a living person it will deal Brute and Burn damage.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Unstable Mutagen": 1,
+      "Omnizine": 1,
+      "Holy Water": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Life",
+    "Treatment for": "Life",
+    "Description": "Can create a life form, however it's not guaranteed to be friendly. May want to have Security on hot standby. (Results in 1 unit instead of 3)",
+    "Metabolism Rate": "N/A",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Strange Reagent": 1,
+      "Synthflesh": 1,
+      "Blood": 1
+    },
+    "Temperature": 375,
+    "IsCompound": true,
+    "Adjusted Product": [3, 1]
+  },
+  {
+    "Name": "Synaptizine",
+    "Treatment for": "Hallucination Decrease",
+    "Description": "Reduces stun times by 2 seconds per tick. Helps Hallucinations go away much faster. Also Purges Mindbreaker Toxin very quickly. Mildly toxic.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Sugar": 1,
+      "Lithium": 1,
+      "Water": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Rezadone",
+    "Treatment for": "Cellular Damage Healing",
+    "Description": "Instantly heals all cellular damage, while healing brute and burn damage over time. If overdosed deals toxin damage. Very good for treating genetic damage on the spot.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "30 Units",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Carpotoxin": 1,
+      "Cryptobiolin": 1,
+      "Copper": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Spaceacillin",
+    "Treatment for": "Infections",
+    "Description": "An all-purpose antiviral agent. Prevents you from spreading any virus in your body. Metabolises very slowly.",
+    "Metabolism Rate": "0.04 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Epinephrine": 1,
+      "Cryptobiolin": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Miner's Salve",
+    "Treatment for": "Improvised Patch Healing Chem",
+    "Description": "Heals over time, but prevents you from telling how injured you are. Causes stomach cramps if not applied via touch/patch.",
+    "Metabolism Rate": "0.16 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Oil": 1,
+      "Iron": 1,
+      "Water": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Haloperidol",
+    "Treatment for": "Anti-Drug and Light Sedative",
+    "Description": "Helps fight against the effects of most drugs, while purging them. However also causes drowsiness and stamina damage.",
+    "Metabolism Rate": "0.16 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Oil": 1,
+      "Potassium Iodide": 1,
+      "Aluminium": 1,
+      "Chlorine": 1,
+      "Fluorine": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Leporazine",
+    "Treatment for": "Body temperature",
+    "Description": "This keeps a patient's body temperature stable. High doses can allow short periods of unprotected EVA. Not viable for unprotected EVA anymore ever since space brute damage was tripled.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Copper": 1,
+      "Silicon": 1
+    },
+    "Catalyst": {
+      "Name": "Plasma",
+      "Amount": 5,
+      "IsRatio": false
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Corazone",
+    "Treatment for": "Heart attack",
+    "Description": "Prevents cardiac arrest, fully protects from heart attack damage as well as liver failure.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Phenol": 2,
+      "Lithium": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Energized Jelly",
+    "Treatment for": "Stun",
+    "Description": "Reduces stun times by 4 seconds per tick for jellypeople, while also speeding up Luminescent's cooldowns. Non-jelly lifeforms will just get shocked.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Teslium": 1,
+      "Slime Jelly": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Krokodil",
+    "Description": "Provides messages of calmness and protection.\nIf overdosed it will deal significant Brain and Toxin damage.\nIf addicted too it will begin to deal fatal amounts of Brute damage as the addict's skin falls off.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "20 Units",
+    "Addiction Threshold": "15 Units",
+    "Formula": {
+      "Diphenhydramine": 1,
+      "Morphine": 1,
+      "Space Cleaner": 1,
+      "Phosphorus": 1,
+      "Potassium": 1,
+      "Welding Fuel": 1
+    },
+    "Temperature": 390,
+    "IsCompound": true
+  },
+  {
+    "Name": "Crank",
+    "Description": "Reduces stun times by 2 seconds per tick. \nIf overdosed or addicted, it will deal significant Toxin, Brute and Brain damage.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "20 Units",
+    "Addiction Threshold": "10 Units",
+    "Formula": {
+      "Diphenhydramine": 1,
+      "Ammonia": 1,
+      "Lithium": 1,
+      "Sulphuric Acid": 1,
+      "Welding Fuel": 1
+    },
+    "Temperature": 390,
+    "IsCompound": true
+  },
+  {
+    "Name": "Methamphetamine",
+    "Description": "Reduces stun times by 4 seconds per tick, gives a large speed boost, and recovers stamina while dealing Brain damage.\nIf overdosed the subject will move randomly, laugh randomly, drop items and suffer from Toxin and Brain damage.\nIf addicted the subject will constantly jitter and drool, before becoming dizzy and losing motor control and eventually suffer heavy toxin damage.\nA great deal of caution must be taken when heating this chemical, as it will explode if it reaches a temperature of or greater than 380K. Can not explode in a body.",
+    "Metabolism Rate": "0.3 units per tick",
+    "Overdose Threshold": "20 Units",
+    "Addiction Threshold": "10 Units",
+    "Formula": {
+      "Ephedrine": 1,
+      "Hydrogen": 1,
+      "Iodine": 1,
+      "Phosphorus": 1
+    },
+    "Temperature": 374,
+    "IsCompound": true
+  },
+  {
+    "Name": "Bath Salts",
+    "Description": "Makes the subject immune to sleep and stuns, and grants a stamina regeneration buff. However the subject will suffer Brain damage, constant hallucinations and will lose some motor control.\nIf overdosed the subject will lose even more motor control, drool, and drop items in their hand.\nIf addicted the subject will suffer very severe Brain damage, severe hallucinations, complete loss of motor control and eventually fatal amounts of Toxin damage.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "20 Units",
+    "Addiction Threshold": "10 Units",
+    "Formula": {
+      "Saltpetre": 1,
+      "Space Cleaner": 1,
+      "Bad Food": 1,
+      "Enzyme": 1,
+      "Nutriment": 1,
+      "Tea": 1,
+      "Mercury": 1
+    },
+    "Temperature": 374,
+    "IsCompound": true
+  },
+  {
+    "Name": "Aranesp",
+    "Description": "The subject will think they are \"amped\" and regenerate stamina at an incredible rate, however the drug typically causes the subject to suffocate to death.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Epinephrine": 1,
+      "Atropine": 1,
+      "Morphine": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Modafinil",
+    "Description": "Slowly-metabolizing compound. Heals dizziness, drowsiness, sleep and heats  you up if frozen, similarly to Coffee Latte. If overdosed causes jitteriness, stuttering, rapid oxygen damage and eventually puts you to a lethal sleep.\nNo chance for addiction but very finicky OD.",
+    "Metabolism Rate": "0.02-0.08 units per tick",
+    "Overdose Threshold": "Random, initially 20 but goes up or down 0.1 each tick.",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Acetone": 1,
+      "Diethylamine": 1,
+      "Phenol": 1,
+      "Ammonia": 1,
+      "Sulphuric Acid": 1
+    },
+    "Catalyst": {
+      "Name": "Bromine",
+      "Amount": 1,
+      "IsRatio": false
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Space Drugs",
+    "Description": "An illegal compound which induces a number of effects such as loss of balance and visual artefacts. If overdosed causes hallucinations.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "30 Units",
+    "Addiction Threshold": "N/A",
+    "Formula": {
+      "Lithium": 1,
+      "Mercury": 1,
+      "Sugar": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Morphine",
+    "Description": "Will allow you to run at full speed, even when hurt or in a hardsuit, but you'll fall asleep if it's in your system for 24 cycles.\n\n\nIf overdosed or addicted it will cause jitteriness, dizziness and force the victim to drop items in their hands. If addicted it will also eventually deal toxin damage. Can be ordered from Cargo, be grown at Botany or be found in a NanoMed Plus. (Results in 3 units instead of 6)",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "30 Units",
+    "Addiction Threshold": "25 Units",
+    "Formula": {
+      "Carbon": 2,
+      "Hydrogen": 2,
+      "Ethanol": 1,
+      "Oxygen": 1
+    },
+    "Temperature": 480,
+    "IsCompound": true,
+    "Adjusted Product": [6, 3]
+  },
+  {
+    "Name": "Stabilizing Agent",
+    "Description": "When mixed with certain pyrotechnics, it stabilizes the reaction and prevents the reaction for usage later. The stabilizing agent is not consumed when stabilizing explosives, and one unit is enough to stabilize any amount of explosives. This does not work on everything, so be warned!",
+    "Formula": {
+      "Iron": 1,
+      "Oxygen": 1,
+      "Hydrogen": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Fluorosurfactant",
+    "Description": "Creates a large amount of foam when mixed with an equal amount of water. This foam carries any reagents along with it in the container, allowing you to apply reagents to large areas at a time. The foam will apply any carried reagents to any walls, floors, objects, or people and animals in the area of the foam. The reagents will be absorbed through a mob's exposed skin and somewhat through clothes unless completely impermeable(hardsuit/biohazard/medical gear). The less foam used, the more reagent will be delivered into a person's bloodstream. Foam is slippery! Can not react in a body.",
+    "Formula": {
+      "Carbon": 2,
+      "Fluorine": 2,
+      "Sulphuric Acid": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Smoke",
+    "Description": "This creates a large cloud of smoke that will take on the properties of everything (if anything) in the container of the reaction. The chemicals in the smoke will touch and react with everything that the smoke touches. Mobs caught within the smoke cloud without wearing a gas mask or breathing through a gas tank will ingest the smoke chemicals. Great for distributing toxins in a crowded area. Can be stabilized into Smoke Powder with Stabilizing Agent.",
+    "Formula": {
+      "Phosphorous": 1,
+      "Potassium": 1,
+      "Sugar": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Smoke Powder",
+    "Description": "The stabilized version of Smoke - only one third as effective as the unstabilized chemical reaction. Heat to 374K to activate. Can not react in a body.",
+    "Formula": {
+      "Phosphorous": 1,
+      "Potassium": 1,
+      "Sugar": 1
+    },
+    "Catalyst": {
+      "Name": "Stabilizing Agent",
+      "Amount": 1,
+      "IsRatio": true
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Flash Powder",
+    "Description": "Flashes in a radius that scales up with the amount detonated. Can be stabilized with Stabilizing Agent. If stabilized, heat to 374K to activate.",
+    "Formula": {
+      "Aluminium": 1,
+      "Potassium": 1,
+      "Sulfur": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Phlogiston",
+    "Description": "Turns into a spreading plasma fire if not stabilized during mixing. Makes you burn longer, and ignites you. Deals increasing fire damage based on how much you're burning up to 4 fire damage every 3 seconds. Can be stabilized with Stabilizing Agent. Does not react immediately.",
+    "Formula": {
+      "Phosphorus": 1,
+      "Sulphuric Acid": 1,
+      "Stable Plasma": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Napalm",
+    "Description": "A substance that burns for much longer than other fuels. Inject it into someone and then apply heat for a warm toasty fireball human.",
+    "Formula": {
+      "Oil": 1,
+      "Welding Fuel": 1,
+      "Ethanol": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Sonic Powder",
+    "Description": "Deafens in a radius that scales up with the amount detonated. Can be stabilized with Stabilizing Agent. If stabilized, heat to 374K to activate.",
+    "Formula": {
+      "Oxygen": 1,
+      "Cola": 1,
+      "Phosphorus": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Pyrosium",
+    "Description": "When first mixed it becomes 20 Kelvin cold. Instantly consumes all liquid Oxygen to heat its container for each unit of Oxygen consumed. This does not expend the Pyrosium, so 1u will have the same effect as 50u. Does nothing whatsoever without being mixed with liquid Oxygen. Does not react with the oxygen in air. Can not react in a body.",
+    "Formula": {
+      "Stable Plasma": 1,
+      "Radium": 1,
+      "Phosphorus": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Cryostylane",
+    "Description": "When first mixed it becomes 20 Kelvin cold. Instantly consumes all liquid Oxygen to cool its container for each unit of Oxygen consumed. This does not expend the Cryostylane, so 1u will have the same effect as 50u, unless you want to prevent it from metabolising out of a body too fast. Does nothing without being mixed with liquid Oxygen. Does not react with the oxygen in air. Deals toxin damage to slimes. Can not react in a body.",
+    "Formula": {
+      "Water": 1,
+      "Stable Plasma": 1,
+      "Nitrogen": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Chlorine Trifluoride",
+    "Description": "When created it will create a temporary 3x3 fireball. Comes into existence at 1000K. A flammable substance so dangerous it can burn through the hull of the station. It lights you on fire when it comes into contact with you, and if it gets inside of you will burn you from the inside out. It metabolizes out of your body extremely fast, however.",
+    "Formula": {
+      "Fluorine": 3,
+      "Chlorine": 1
+    },
+    "Temperature": 424,
+    "IsCompound": true
+  },
+  {
+    "Name": "Sorium",
+    "Description": "When detonated it will send any movable object or person flying away from the detonation point. Can be stabilized with Stabilizing Agent. If stabilized, heat to 474K to activate.",
+    "Formula": {
+      "Mercury": 1,
+      "Oxygen": 1,
+      "Nitrogen": 1,
+      "Carbon": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Liquid Dark Matter",
+    "Description": "When detonated it will suck in any movable object or person. Can be stabilized with Stabilizing Agent. If stabilized, heat to 474K to activate.",
+    "Formula": {
+      "Stable Plasma": 1,
+      "Radium": 1,
+      "Carbon": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Meth Explosion",
+    "Description": "Reagents are 300K (room temperature) by default, so if you are making Methamphetamine and mixing the Ephedrine last, make sure you're using a chilled container, or it'll blow up just as if it was overheated. Definitely safer to just make the ephedrine separately. Blows up with the same strength as Black Powder. Can not explode in a body.",
+    "Formula": {
+      "Diethylamine": 1,
+      "Iodine": 1,
+      "Phosphorus": 1,
+      "Hydrogen": 1
+    },
+    "Temperature": 300,
+    "IsCompound": true
+  },
+  {
+    "Name": "Black Powder",
+    "Description": "When heated to 474K it sparks, and then creates a violent explosion 5-10 seconds later. Causes hallucinations in plasmamen.",
+    "Formula": {
+      "Charcoal": 1,
+      "Saltpetre": 1,
+      "Sulfur": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Nitroglycerin",
+    "Description": "A heavy, colourless, oily, explosive liquid obtained by nitrating glycerol. Explodes immediately on mixing. Can be stabilized with Stabilizing Agent. If stabilized, heat to 474K to activate. (Results in 2 units instead of 3)",
+    "Formula": {
+      "Glycerol": 1,
+      "Fluorosulfuric Acid": 1,
+      "Sulphuric Acid": 1
+    },
+    "IsCompound": true,
+    "Adjusted Product": [3, 2]
+  },
+  {
+    "Name": "Explosion",
+    "Description": "This explodes immediately on mixing, which may knock you over or even kill you. Only useful in grenade production.",
+    "Formula": {
+      "Potassium": 1,
+      "Water": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Holy Explosion",
+    "Description": "This explodes immediately on mixing. If it combined at least 75 of each reagent, it results in a more powerful explosion, which also paralyzes and reveals revenants and sets nearby cultists on fire. Otherwise it behaves like a normal Water-Potassium explosion. Much more efficient if less Potassium is used.",
+    "Formula": {
+      "Potassium": 1,
+      "Holy Water": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "EMP",
+    "Description": "This reacts immediately on mixing, creating an electromagnetic pulse which affects electronics nearby; very useful for causing chaos.",
+    "Formula": {
+      "Iron": 1,
+      "Uranium": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Bee Explosion",
+    "Description": "Creates bees. 1 bee per 5 created volume. If mixed in a beaker or grenade containing other reagents, then every bee will contain one of those reagents. The bees from this reaction have a limited lifespan, and will die after 50 seconds.",
+    "Formula": {
+      "Honey": 1,
+      "Strange Reagent": 1,
+      "Radium": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Tesla Shock",
+    "Description": "This reacts immediately on mixing, shooting electric bolts to anyone near the reaction, shocking people and disabling/damaging electronics.",
+    "Formula": {
+      "Teslium": 1,
+      "Water": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Thermite",
+    "Description": "A mixture that can burn straight through walls or floors when splashed and ignited. Needed amount depends on target structure. Does not work on doors or windows. Causes minor burn damage to humans when ingested.",
+    "Formula": {
+      "Aluminium": 1,
+      "Iron": 1,
+      "Oxygen": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Barber's Aid",
+    "Formula": {
+      "Carpet": 1,
+      "Space Drugs": 1,
+      "Radium": 1
+    },
+    "Description": "Changes your hair style, useful if you are bald! (Results in 5 units instead of 3)",
+    "IsCompound": true,
+    "Adjusted Product": [3, 5]
+  },
+  {
+    "Name": "Concentrated Barber's Aid",
+    "Formula": {
+      "Barber's Aid": 1,
+      "Unstable Mutagen": 1
+    },
+    "Description": "Grows your hair very long!",
+    "IsCompound": true
+  },
+  {
+    "Name": "Candle",
+    "Formula": {
+      "Liquid Gibs": 10,
+      "Oxygen": 10
+    },
+    "Description": "Creates a red candle for use in decoration or rituals. Can not react in a body.",
+    "Temperature": 374,
+    "IsCompound": true
+  },
+  {
+    "Name": "Carbon Dioxide",
+    "Formula": {
+      "Oxygen": 2,
+      "Carbon": 1
+    },
+    "Description": "Creates CO2 in liquid form. Spilling this will release gas form CO2 into the atmosphere. Has no other effects.",
+    "Temperature": 777,
+    "IsCompound": true
+  },
+  {
+    "Name": "Carpet",
+    "Formula": {
+      "Space Drugs": 1,
+      "Blood": 1
+    },
+    "Description": "Creates a carpet on the floor. Best used in a smoke machine/grenade or spray bottle. Ingredient in Barber's Aid.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Colorful Reagent",
+    "Formula": {
+      "Triple Citrus": 1,
+      "Cryoxadone": 1,
+      "Space Drugs": 1,
+      "Radium": 1,
+      "Stable Plasma": 1
+    },
+    "Description": "Use this to color EVERYTHING! Keep away from the clown and assistants! Add this to your smoke grenades.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Condensed Capsaicin",
+    "Formula": {
+      "Ethanol": 5,
+      "Capsaicin Oil": 1
+    },
+    "Description": "A chemical agent used for self-defense and in police work. Stuns when sprayed into unprotected eyes. (Results in 5 units instead of 6)",
+    "IsCompound": true,
+    "Adjusted Product": [6, 1]
+  },
+  {
+    "Name": "Corgium",
+    "Formula": {
+      "Colorful Reagent": 1,
+      "Strange Reagent": 1,
+      "Nutriment": 1,
+      "Blood": 1
+    },
+    "Description": "Creates your own Corgi!",
+    "Temperature": 374,
+    "IsCompound": true
+  },
+  {
+    "Name": "Cryptobiolin",
+    "Formula": {
+      "Oxygen": 1,
+      "Potassium": 1,
+      "Sugar": 1
+    },
+    "Description": "Causes confusion and dizziness. This is essential to make Spaceacillin.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Drying Agent",
+    "Formula": {
+      "Stable Plasma": 2,
+      "Ethanol": 1,
+      "Sodium": 1
+    },
+    "Description": "Creates a solution that when applied to galoshes, causes them to be extra absorbent and dry any wet tiling they step on. (Results in 3 units instead of 4)",
+    "IsCompound": true,
+    "Adjusted Product": [4, 3]
+  },
+  {
+    "Name": "Foaming Agent",
+    "Formula": {
+      "Lithium": 1,
+      "Hydrogen": 1
+    },
+    "Description": "Used in Metal Foam production. Creates 1 unit instead of 2.",
+    "IsCompound": true,
+    "Adjusted Product": [2, 1]
+  },
+  {
+    "Name": "Firefighting Foam",
+    "Formula": {
+      "Stabilizing Agent": 1,
+      "Fluorosurfactant": 1,
+      "Carbon": 1
+    },
+    "Description": "When used in a spray or with smoke it creates a non-slippery foam which extinguishes fires and burning creatures, and removes plasma from the air, dumping it on the floor upon dissipation.",
+    "Temperature": 200,
+    "IsCompound": true
+  },
+  {
+    "Name": "Fluorosulfuric Acid",
+    "Formula": {
+      "Fluorine": 1,
+      "Hydrogen": 1,
+      "Potassium": 1,
+      "Sulphuric Acid": 1
+    },
+    "Description": "A highly caustic and dangerous substance. Keep away from faces and valuable equipment. Used in some other recipes.",
+    "Temperature": 380,
+    "IsCompound": true
+  },
+  {
+    "Name": "Glycerol",
+    "Formula": {
+      "Corn Oil": 3,
+      "Sulphuric Acid": 1
+    },
+    "Description": "Requires blended corn, so thus help from the botanist. Used to make Nitroglycerin or FRAG-12 shotgun slugs. Slippery like water. (Results in 1 unit instead of 4)",
+    "IsCompound": true,
+    "Adjusted Product": [4, 1]
+  },
+  {
+    "Name": "Quantum Hair Dye",
+    "Formula": {
+      "Colorful Reagent": 1,
+      "Space Drugs": 1,
+      "Radium": 1
+    },
+    "Description": "Changes your hair color when you apply or spray it! (Results in 5 units instead of 3)",
+    "IsCompound": true,
+    "Adjusted Product": [3, 5]
+  },
+  {
+    "Name": "Laughter",
+    "Formula": {
+      "Sugar": 1,
+      "Banana Juice": 1
+    },
+    "Description": "Causes you to laugh. (Results in 10 units instead of 2)",
+    "IsCompound": true,
+    "Adjusted Product": [2, 10]
+  },
+  {
+    "Name": "Meat Product",
+    "Formula": {
+      "Liquid Gibs": 10,
+      "Nutriment": 10,
+      "Carbon": 10
+    },
+    "Description": "Creates a slab of chemically processed meat. Can not react in a body.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Metal Foam",
+    "Formula": {
+      "Iron": 3,
+      "Foaming Agent": 1,
+      "Fluorosulfuric Acid": 1
+    },
+    "Description": "Creates lightweight metal foam walls. These can be easily torn through, but are useful for plugging hull breaches or blocking off AI turrets.\n\nCan be made with either iron or aluminium. Can not react in a body.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Smart Foaming Agent",
+    "Formula": {
+      "Foaming Agent": 3,
+      "Acetone": 1,
+      "Iron": 1
+    },
+    "Description": "Required to make smart metal foam.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Smart Metal Foam",
+    "Formula": {
+      "Aluminium": 3,
+      "Smart Foaming Agent": 1,
+      "Fluorosulfuric Acid": 1
+    },
+    "Description": "A \"smart\" version of metal foam that reacts to tiles exposed to space by forming floors/walls. Usually doesn't encase people or block hallways. Can not react in a body.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Nitrous Oxide",
+    "Formula": {
+      "Ammonia": 2,
+      "Oxygen": 2,
+      "Nitrogen": 1
+    },
+    "Description": "Creates N2O in liquid form. Explodes when heated to 575K. Will cause drowsiness on touch. When consumed or injected it also causes anemia, confusion and loss of breath. Spilling this will release gas form N2O into the atmosphere.",
+    "Temperature": 525,
+    "IsCompound": true
+  },
+  {
+    "Name": "Gold Solidification",
+    "Formula": {
+      "Gold": 20,
+      "Frost Oil": 5,
+      "Iron": 1
+    },
+    "Description": "Solidifies a large amount of liquid Gold into a bar. Can not react in a body.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Plasma Solidification",
+    "Formula": {
+      "Plasma": 20,
+      "Iron": 5,
+      "Frost Oil": 5
+    },
+    "Description": "Solidifies a large amount of liquid Plasma into a bar. Can not react in a body.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Plastic Sheets",
+    "Formula": {
+      "Oil": 5,
+      "Ash": 3,
+      "Sulphuric Acid": 2
+    },
+    "Description": "Creates Plastic sheets at a rate of 10u per Plastic sheet.",
+    "Temperature": 374,
+    "IsCompound": true
+  },
+  {
+    "Name": "Royal Bee Jelly",
+    "Formula": {
+      "Honey": 40,
+      "Unstable Mutagen": 10
+    },
+    "Description": "Causes a Queen Bee to split in two when injected. (Results in 5 units instead of 50)",
+    "IsCompound": true,
+    "Adjusted Product": [10, 1]
+  },
+  {
+    "Name": "Soap",
+    "Formula": {
+      "Lye": 10,
+      "Liquid Gibs": 10
+    },
+    "Description": "Creates a bar of soap, 10% faster cleaning than with what you get on the station. Can not react in a body.",
+    "Temperature": 374,
+    "IsCompound": true
+  },
+  {
+    "Name": "Sodium Chloride",
+    "Formula": {
+      "Sodium": 1,
+      "Chlorine": 1,
+      "Water": 1
+    },
+    "Description": "Commonly known as salt, Sodium Chloride is often used to season food.\n\nExotic uses include messing with Revenants - they can't jaunt through salt piles.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Space Cleaner",
+    "Formula": {
+      "Ammonia": 1,
+      "Water": 1
+    },
+    "Description": "This is able to clean almost all surfaces of almost anything that may dirty them. The janitor is likely to appreciate refills.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Spray Tan",
+    "Formula": {
+      "Orange Juice": 1,
+      "Oil": 1
+    },
+    "Description": "Darkens the skin when sprayed or applied. Ingesting more than 10u causes side effects!",
+    "IsCompound": true
+  },
+  {
+    "Name": "Space Lube",
+    "Formula": {
+      "Oxygen": 1,
+      "Silicon": 1,
+      "Water": 1
+    },
+    "Description": "Space Lube is a high performance lubricant intended for maintenance of extremely complex mechanical equipment. (Results in 4 units instead of 3)",
+    "IsCompound": true,
+    "Adjusted Product": [3, 4]
+  },
+  {
+    "Name": "Sterilizine",
+    "Formula": {
+      "Charcoal": 1,
+      "Chlorine": 1,
+      "Ethanol": 1
+    },
+    "Description": "When applied via touch or vapor, increases the success chance of surgical steps by 20%. Useful for surgery in less than ideal conditions.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Synthmeat",
+    "Formula": {
+      "Blood": 5,
+      "Cryoxadone": 1
+    },
+    "Description": "Creates a slab of synthetic meat.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Unstable Mutagen",
+    "Formula": {
+      "Chlorine": 1,
+      "Phosphorus": 1,
+      "Radium": 1
+    },
+    "Description": "Causes mutations when injected into living people or plants. High doses may be lethal, especially in humans. Also useful for Virology.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Virus Food",
+    "Formula": {
+      "Water": 5,
+      "Milk": 5
+    },
+    "Description": "Allows viruses and bacteria to quickly grow. Used to get a virus symptom of level 2. (Results in 15 units instead of 10)",
+    "IsCompound": true,
+    "Adjusted Product": [10, 15]
+  },
+  {
+    "Name": "Virus Rations",
+    "Formula": {
+      "Virus Food": 1,
+      "Synaptizine": 1
+    },
+    "Description": "Depleted virus food. Used to get a virus symptom of level 1. (Results in 1 unit instead of 2)",
+    "IsCompound": true,
+    "Adjusted Product": [2, 1]
+  },
+  {
+    "Name": "Mutagenic Agar",
+    "Formula": {
+      "Unstable Mutagen": 1,
+      "Virus Food": 1
+    },
+    "Description": "Extremely similar to Unstable Mutagen. Used to get a virus symptom of level 3. (Results in 1 unit instead of 2)",
+    "IsCompound": true,
+    "Adjusted Product": [2, 1]
+  },
+  {
+    "Name": "Sucrose Agar",
+    "Formula": {
+      "Mutagenic Agar": 1,
+      "Sugar": 1
+    },
+    "Description": "Extremely similar to Mutagenic Agar. Used to get a virus symptom of level 4.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Weakened Virus Plasma",
+    "Formula": {
+      "Virus Plasma": 1,
+      "Synaptizine": 1
+    },
+    "Description": "Weakened variety of virus plasma. Used to get a virus symptom of level 5.",
+    "IsCompound": true
+  },
+  {
+    "Name": "Virus Plasma",
+    "Formula": {
+      "Virus Food": 1,
+      "Plasma": 1
+    },
+    "Description": "Extremely similar to Plasma. Used to get a virus symptom of level 6. (Results in 1 unit instead of 2)",
+    "IsCompound": true,
+    "Adjusted Product": [2, 1]
+  },
+  {
+    "Name": "Decaying Uranium Gel",
+    "Formula": {
+      "Virus Food": 1,
+      "Uranium": 1
+    },
+    "Description": "Powerful viral mutagen. Used to get a virus symptom of level 6 or 7. (Results in 1 unit instead of 2)",
+    "IsCompound": true,
+    "Adjusted Product": [2, 1]
+  },
+  {
+    "Name": "Unstable Uranium Gel",
+    "Formula": {
+      "Virus Plasma": 1,
+      "Uranium": 5
+    },
+    "Description": "Powerful viral mutagen. Used to get a virus symptom of level 7. (Results in 1 unit instead of 6)",
+    "IsCompound": true,
+    "Adjusted Product": [6, 1]
+  },
+  {
+    "Name": "Stable Uranium Gel",
+    "Formula": {
+      "Plasma": 1,
+      "Uranium": 10,
+      "Silver": 10
+    },
+    "Description": "Powerful viral mutagen. Used to get a virus symptom of level 8. (Results in 1 unit instead of 21)",
+    "IsCompound": true,
+    "Adjusted Product": [21, 1]
+  },
+  {
+    "Name": "Chloral Hydrate",
+    "Damage dealt": "Stun, Toxin",
+    "Description": "A powerful sedative which first dizzies and confuses, and then after 10 cycles puts the victim to sleep. After 51 total cycles, it starts dealing ever increasing toxin damage, until death. (Results in 1 unit instead of 5)",
+    "Metabolism Rate": "0.6 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Chlorine": 3,
+      "Ethanol": 1,
+      "Water": 1
+    },
+    "IsCompound": true,
+    "Adjusted Product": [5, 1]
+  },
+  {
+    "Name": "Mindbreaker Toxin",
+    "Damage dealt": "Hallucinations",
+    "Description": "A potent hallucinogenic compound that is illegal under space law. Formerly known as LSD, but was renamed so people understand that it is not a \"fun time\".\n For people with the Reality Dissociation Syndrome trait, this will instead suppress hallucinations. (Results in 5 units instead of 3)",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Charcoal": 1,
+      "Hydrogen": 1,
+      "Silicon": 1
+    },
+    "IsCompound": true,
+    "Adjusted Product": [3, 5]
+  },
+  {
+    "Name": "Impedrezene",
+    "Damage dealt": "Brain",
+    "Description": "A narcotic that impedes one's ability by slowing down the higher brain cell functions. Causes massive brain damage. (Results in 2 units instead of 3)",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Mercury": 1,
+      "Oxygen": 1,
+      "Sugar": 1
+    },
+    "IsCompound": true,
+    "Adjusted Product": [3, 2]
+  },
+  {
+    "Name": "Mute Toxin",
+    "Damage dealt": "Speech",
+    "Description": "Makes the subject unable to speak for some time. (Results in 2 units instead of 4)",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Uranium": 2,
+      "Water": 1,
+      "Carbon": 1
+    },
+    "IsCompound": true,
+    "Adjusted Product": [4, 2]
+  },
+  {
+    "Name": "Mime's Bane",
+    "Damage dealt": "Gestures",
+    "Description": "Makes the subject unable to gesticulate.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Mute Toxin": 1,
+      "Nothing": 1,
+      "Radium": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Bone Hurting Juice",
+    "Damage dealt": "Stamina Damage and Delimbing Skeletons",
+    "Description": "Does 15 stamina damage per tick. On overdose, it has a 4% chance of causing a spike of 200 stamina damage to a random limb, temporarily disabling it. If you're a skeleton or a plasmaman, it will deal 15 stamina and 0.5 brute damage per tick, and overdosing can cause a spike of 200 brute damage to a random limb, instead of stamina. Metabolized very fast.",
+    "Metabolism Rate": "2 units per tick",
+    "Overdose Threshold": "50 Units",
+    "Formula": {
+      "Itching Powder": 3,
+      "Unstable Mutagen": 1,
+      "Milk": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Mulligan Toxin",
+    "Damage dealt": "Identity",
+    "Description": "Randomizes the subject's appearance.",
+    "Metabolism Rate": "Infinite",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Slime Mutation Toxin": 1,
+      "Unstable Mutagen": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Lexorin",
+    "Damage dealt": "Suffocation",
+    "Description": "Temporarily stops respiration and causes oxyloss damage. Large doses are fatal, and will cause people to pass out quickly.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Plasma": 1,
+      "Hydrogen": 1,
+      "Oxygen": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Sulfonal",
+    "Damage dealt": "Knockout and Toxin",
+    "Description": "1 toxin damage every 2 cycles, knocks you out after 22 seconds. Metabolized very slowly: two units are enough to trigger the knockout.",
+    "Metabolism Rate": "0.05 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Acetone": 1,
+      "Diethylamine": 1,
+      "Sulfur": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Lipolicide",
+    "Damage dealt": "Weight Loss",
+    "Description": "Drains nutrition. Useful for weight loss. Will deal toxin damage if you are starving.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Ephedrine": 1,
+      "Diethylamine": 1,
+      "Mercury": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Formaldehyde",
+    "Damage dealt": "Toxin",
+    "Description": "Causes a small amount of Toxin damage over time. Has a 5% chance to turn into 5 to 15 units of Histamine.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Ethanol": 1,
+      "Oxygen": 1,
+      "Silver": 1
+    },
+    "Temperature": 420,
+    "IsCompound": true
+  },
+  {
+    "Name": "Fentanyl",
+    "Damage dealt": "Toxin, brain",
+    "Description": "Will deal up to 60 points of Toxin damage and 150 points of brain damage (brains have 200 points of health). If the drug is not removed before 18 cycles it will knock the user unconscious.",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Space Drugs": 1
+    },
+    "Temperature": 674,
+    "IsCompound": true
+  },
+  {
+    "Name": "Cyanide",
+    "Damage dealt": "Toxin, oxyloss",
+    "Description": "Deals random amounts of toxin damage while slowly suffocating or stunning its target. Metabolizes slowly.",
+    "Metabolism Rate": "0.05 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Oil": 1,
+      "Ammonia": 1,
+      "Oxygen": 1
+    },
+    "Temperature": 380,
+    "IsCompound": true
+  },
+  {
+    "Name": "Zombie Powder",
+    "Damage dealt": "Fake death, stun",
+    "Description": "Paralyses people, and makes them appear dead to the most rudimentary of tests. Deals minor oxygen and toxin damage. (Results in 2 units instead of 15)",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Morphine": 5,
+      "Carpotoxin": 5,
+      "Copper": 5
+    },
+    "IsCompound": true,
+    "Adjusted Product": [15, 2]
+  },
+  {
+    "Name": "Ghoul Powder",
+    "Damage dealt": "Fake death",
+    "Description": "Slows metabolism to a death-like state, while keeping the patient fully aware and mobile. Deals minor toxin damage.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Epinephrine": 1,
+      "Zombie Powder": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Itching Powder",
+    "Damage dealt": "Brute, annoyance",
+    "Description": "Will cause annoying effects, as well as a chance that the subject will scratch themselves dealing slight amounts of Brute damage. Has a chance to transform into 1 to 3 units of Histamine.",
+    "Metabolism Rate": "0.16 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Charcoal": 1,
+      "Ammonia": 1,
+      "Welding Fuel": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Heparin",
+    "Damage dealt": "Brute, Bleeding",
+    "Description": "Causes bleeding constantly while in the system of the victim.",
+    "Metabolism Rate": "0.08 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Formaldehyde": 1,
+      "Sodium": 1,
+      "Chlorine": 1,
+      "Lithium": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Teslium",
+    "Damage dealt": "Random Shocks",
+    "Description": "Randomly shocks the victim while it is in their system, ignoring any protection cause the shock comes from inside them. Also increases damage taken from normal shocks. Heating this to 474K will create a Tesla Shock",
+    "Metabolism Rate": "0.2 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Black Powder": 1,
+      "Silver": 1,
+      "Stable Plasma": 1
+    },
+    "Temperature": 400,
+    "IsCompound": true
+  },
+  {
+    "Name": "Rotatium",
+    "Damage dealt": "Toxin",
+    "Description": "Causes the victim's screen to display a rocking motion and deals moderate toxin damage.",
+    "Metabolism Rate": "0.24 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Teslium": 1,
+      "Mindbreaker Toxin": 1,
+      "Fentanyl": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Skewium",
+    "Damage dealt": "Toxin",
+    "Description": "Causes heavy skewing of the victim's screen every tick, swinging fucking every where, zooming in and out, spinning, inverting, and generally making you want to throw up. Deals minor toxin damage. If you are wanting to fight someone, inject them with this and they will be practically unable to fight.",
+    "Metabolism Rate": "0.32 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Rotatium": 2,
+      "Plasma": 2,
+      "Sulphuric Acid": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Anacea",
+    "Damage dealt": "Toxin and Purges Medicines",
+    "Description": "Metabolizes very slowly and quickly purges other chemicals in the victim while dealing light toxin damage.",
+    "Metabolism Rate": "0.032 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Haloperidol": 1,
+      "Impedrezene": 1,
+      "Radium": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Weed Killer",
+    "Damage dealt": "Toxin",
+    "Description": "Kills weeds, causes minor toxin damage to humans.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Toxin": 1,
+      "Ammonia": 4
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Pest Killer",
+    "Damage dealt": "Toxin",
+    "Description": "Kills pests in hydroponics trays, causes minor toxin damage to humans. Deals heavy toxin damage to fly people.",
+    "Metabolism Rate": "0.4 units per tick.",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Toxin": 1,
+      "Ethanol": 4
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Plant-B-Gone",
+    "Damage dealt": "Toxin",
+    "Description": "A potent herbicide which is useful to replace the limited supply the botanist starts with. Causes minor toxin damage to humans. Deals heavy toxin damage to pod people.",
+    "Metabolism Rate": "0.4 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Toxin": 1,
+      "Water": 4
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Pax",
+    "Damage dealt": "Special",
+    "Description": "Suppresses violence by preventing the victim from using anything but the help intent and passive grabs.",
+    "Metabolism Rate": "0.25 units per tick",
+    "Overdose Threshold": "N/A",
+    "Formula": {
+      "Mindbreaker Toxin": 1,
+      "Synaptizine": 1,
+      "Water": 1
+    },
+    "IsCompound": true
+  },
+  {
+    "Name": "Welding Fuel",
+    "IsCompound": false
+  },
+  {
+    "Name": "Carbon",
+    "IsCompound": false
+  },
+  {
+    "Name": "Hydrogen",
+    "IsCompound": false
+  },
+  {
+    "Name": "Oxygen",
+    "IsCompound": false
+  },
+  {
+    "Name": "Ethanol",
+    "IsCompound": false
+  },
+  {
+    "Name": "Chlorine",
+    "IsCompound": false
+  },
+  {
+    "Name": "Water",
+    "IsCompound": false
+  },
+  {
+    "Name": "Nitrogen",
+    "IsCompound": false
+  },
+  {
+    "Name": "Potassium",
+    "IsCompound": false
+  },
+  {
+    "Name": "Sodium",
+    "IsCompound": false
+  },
+  {
+    "Name": "Silver",
+    "IsCompound": false
+  },
+  {
+    "Name": "Sulfur",
+    "IsCompound": false
+  },
+  {
+    "Name": "Aluminium",
+    "IsCompound": false
+  },
+  {
+    "Name": "Sulphuric Acid",
+    "IsCompound": false
+  },
+  {
+    "Name": "Sugar",
+    "IsCompound": false
+  },
+  {
+    "Name": "Blood",
+    "IsCompound": false
+  },
+  {
+    "Name": "Bromine",
+    "IsCompound": false
+  },
+  {
+    "Name": "Lithium",
+    "IsCompound": false
+  },
+  {
+    "Name": "Silicon",
+    "IsCompound": false
+  },
+  {
+    "Name": "Slime Jelly",
+    "IsCompound": false
+  },
+  {
+    "Name": "Stable Plasma",
+    "IsCompound": false
+  },
+  {
+    "Name": "Fluorine",
+    "IsCompound": false
+  },
+  {
+    "Name": "Mercury",
+    "IsCompound": false
+  },
+  {
+    "Name": "Iodine",
+    "IsCompound": false
+  },
+  {
+    "Name": "Copper",
+    "IsCompound": false
+  },
+  {
+    "Name": "Omnizine",
+    "IsCompound": false
+  },
+  {
+    "Name": "Holy Water",
+    "IsCompound": false
+  },
+  {
+    "Name": "Carpotoxin",
+    "IsCompound": false
+  },
+  {
+    "Name": "Iron",
+    "IsCompound": false
+  },
+  {
+    "Name": "Phosphorus",
+    "IsCompound": false
+  },
+  {
+    "Name": "Bad Food",
+    "IsCompound": false
+  },
+  {
+    "Name": "Enzyme",
+    "IsCompound": false
+  },
+  {
+    "Name": "Nutriment",
+    "IsCompound": false
+  },
+  {
+    "Name": "Tea",
+    "IsCompound": false
+  },
+  {
+    "Name": "Phosphorous",
+    "IsCompound": false
+  },
+  {
+    "Name": "Cola",
+    "IsCompound": false
+  },
+  {
+    "Name": "Radium",
+    "IsCompound": false
+  },
+  {
+    "Name": "Uranium",
+    "IsCompound": false
+  },
+  {
+    "Name": "Honey",
+    "IsCompound": false
+  },
+  {
+    "Name": "Liquid Gibs",
+    "IsCompound": false
+  },
+  {
+    "Name": "Triple Citrus",
+    "IsCompound": false
+  },
+  {
+    "Name": "Capsaicin Oil",
+    "IsCompound": false
+  },
+  {
+    "Name": "Corn Oil",
+    "IsCompound": false
+  },
+  {
+    "Name": "Banana Juice",
+    "IsCompound": false
+  },
+  {
+    "Name": "Gold",
+    "IsCompound": false
+  },
+  {
+    "Name": "Frost Oil",
+    "IsCompound": false
+  },
+  {
+    "Name": "Plasma",
+    "IsCompound": false
+  },
+  {
+    "Name": "Orange Juice",
+    "IsCompound": false
+  },
+  {
+    "Name": "Milk",
+    "IsCompound": false
+  },
+  {
+    "Name": "Nothing",
+    "IsCompound": false
+  },
+  {
+    "Name": "Slime Mutation Toxin",
+    "IsCompound": false
+  },
+  {
+    "Name": "Toxin",
+    "IsCompound": false
+  }
+]

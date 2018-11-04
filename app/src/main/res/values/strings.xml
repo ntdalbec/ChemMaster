@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ChemMaster</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="amount_selection_text">Enter amount</string>
+    <string name="amount_selection_button">GO</string>
+    <string name="search_hint">Search by chem name</string>
+</resources>
