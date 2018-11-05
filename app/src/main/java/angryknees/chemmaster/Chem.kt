@@ -1,7 +1,5 @@
 package angryknees.chemmaster
 
-import java.io.Serializable
-
 data class Chem(
         val name: String,
         val isCompound: Boolean,
@@ -15,4 +13,4 @@ data class Chem(
         val catalyst: Catalyst?,
         val addictionThreshold: String?,
         val damageDealt: String?
-) : Serializable
+)
