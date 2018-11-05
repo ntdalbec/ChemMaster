@@ -45,7 +45,6 @@ class ChemActivity : AppCompatActivity() {
 
         val nameText = TextView(this)
         nameText.text = "$name $amount"
-        nameText.setPadding(INDENT_SIZE, 0, 0, 0)
 
         return nameText
     }
